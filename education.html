@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="icon" href="portfoliologo.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+        body {
+            margin: 0;
+            background-color: black;
+          
+        }
+
+        /* Header styles */
+        .container1 {
+            background-color: rgb(27, 27, 27);
+            opacity: 0.7;
+            width: 80%;
+            height: 30px;
+            margin: 0 auto;
+            margin-top: 0px;
+            padding: 20px;
+            padding-top: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            color: white;
+          
+
+        }
+
+        ul {
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            justify-content: space-evenly;
+        }
+
+        li a {
+            color: white;
+            text-decoration: none;
+        }
+
+
+        /* Section heading */
+        .edu {
+            color: white;
+            font-size: 2rem;
+            font-weight: 900;
+            justify-content: center;
+            margin-top: 60px;
+            display: flex;
+        }
+
+        .pra {
+            color: gray;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* Boxes styling */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .boxes {
+            background-color: rgb(22, 20, 20);
+            border-radius: 10px;
+            display: flex;
+            margin-bottom: 30px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+
+        .innerbox img {
+            height: 100%;
+            width: 200px;
+            object-fit: cover;
+        }
+
+        .box-content {
+            padding: 20px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .box-content .koo {
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin-bottom: 10px;
+        }
+
+        .box-content .pkd {
+            font-weight: 400;
+            color: #ccc;
+        }
+
+           </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container1">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <span class="edu">Education</span>
+        <p class="pra">My academic journey has equipped me with the knowledge and skills to excel in my professional endeavors.</p>
+
+        <div class="container">
+
+            <!-- College Box -->
+            <div class="boxes">
+                <div class="innerbox">
+                    <img src="titlogo.png" alt="College logo">
+                </div>
+                <div class="box-content">
+                    <span class="koo">Bachelor of Technology</span>
+                    <p class="pkd">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio doloremque incidunt error illo totam rem eius deserunt quisquam recusandae cupiditate!</p>
+                </div>
+            </div>
+
+            <!-- School Box -->
+            <div class="boxes">
+                <div class="innerbox">
+                    <img src="images.logo.jpeg" alt="School logo">
+                </div>
+                <div class="box-content">
+                    <span class="koo">Schooling</span>
+                    <p class="pkd">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quisquam libero error sunt necessitatibus, possimus veritatis suscipit aspernatur itaque expedita consequatur!</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+
+</html>
