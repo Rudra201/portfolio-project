@@ -1,12 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <title>Contact</title>
+    <title>Contact</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-   
-</head>
-<body>
+    <link rel="icon" href="portfoliologo.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+        body {
+            margin: 0;
+            background-color: black;
+
+        }
+
+        /* Header styles */
+        .container1 {
+            background-color: rgb(27, 27, 27);
+            opacity: 0.7;
+            width: 80%;
+            height: 30px;
+            margin: 0 auto;
+            margin-top: 0px;
+            padding: 20px;
+            padding-top: 10px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            color: white;
+
+
+        }
+
+        ul {
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            justify-content: space-evenly;
+        }
+
+        li a {
+            color: white;
+            text-decoration: none;
+        }
+
+
+
+        /* main section  */
+        .section-content {
+            color: white;
+            font-size: xx-large;
+            font-weight: 900;
+            display: flex;
+            justify-content: center;
+            margin: 70px auto;
+            margin-bottom: 30px;
+        }
+
+        .p-content {
+            color: gray;
+            text-align: center;
+            font-size: large;
+        }
+
     
-</body>
-</html>
+
+.span-content {
+            color: white; margin-top: 30px; font-size: 30px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+            width: 1300px;
+            
+            margin: 50px;
+            padding-top: 10px;
+            
+        }
+
+        .box-content{
+    width: 310px;
+    height: 170px;
+    border: gray solid 1px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    margin-left: 30px;
+    border-radius: 8px;
+    text-align: center; 
+}
+
+.box-content span {
+    margin: 5px 0;
+}
+
+        
+
+.port{ color: white;  margin-top: 70px; margin-left: -40px; font-size: 25px;}
+
+.small-text{color: gray; margin-top: 100px;}
+
+
+        /* Section heading */
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container1">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+
+
+    <!-- main section of the webpage -->
+
+
+    <section class="section-content"> Contact Me </section>
+
+    <p class="p-content"> Let's get in touch.I'm open to discussing new project, opportunities, or just saying<br>hello.
+    </p>
+
+    <!-- boxes for contect information -->
+
+
+
+    <div class="container">
+        <div class="box-content" id="box1"><span class="span-content"> <i class="fa-solid fa-phone"></i></span><br>
+            <span class="port">Phone</span><br>   <span class="small-text">+(91)63******32</span>                                                         </div>
+        <div class="box-content" id="box2"><span class="span-content"><i class="fa-regular fa-envelope"></i></span><br>
+            <span class="port">Email</span><span class="small-text">rudrapratapdubey95@gmail.com</span></div>
+        <div class="box-content" id="box3"><span class="span-content"><i class="fa-solid fa-location-dot"></i></span><br>
+            <span class="port">Location</span><span class="small-text">Varanasi ,Uttar Pradesh, India</span></div>
+    
+    </div>
