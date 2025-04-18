@@ -19,7 +19,7 @@
     /* header */
     body {
         background-color: black;
-    
+
     }
 
     .container1 {
@@ -35,7 +35,7 @@
         border-bottom-right-radius: 10px;
         color: white;
         font-family: "IBM Plex Mono", monospace;
-        
+
     }
 
     ul {
@@ -43,7 +43,7 @@
         list-style: none;
         justify-content: space-evenly;
     }
-    
+
     li a {
         text-decoration: none;
     }
@@ -51,6 +51,22 @@
     li a {
         color: white;
         text-decoration: none;
+    }
+
+
+    @media screen and (max-width: 500px) {
+
+
+        .container1 {
+            display: block;
+        }
+
+        .container1:hover {
+            display: block;
+            background-color: yellow;
+        }
+
+
     }
 
     /* main */
@@ -80,7 +96,7 @@
         background-image: url(imag.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
-        margin:100px auto;
+        margin: 100px auto;
         margin-bottom: 30px;
 
     }
@@ -101,7 +117,7 @@
         text-shadow: 1px;
         cursor: pointer;
         box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
-        
+
     }
 
     .po {
@@ -111,17 +127,17 @@
     /* footer */
     .nop {
         color: white;
-    
+
         font-family: "IBM Plex Mono", monospace;
         margin-left: 440px;
     }
 
     .container {
-        
+
         color: white;
         display: flex;
         width: 800px;
-        margin-left:  420px ;
+        margin-left: 420px;
     }
 
     #boxes {
@@ -137,13 +153,16 @@
         align-items: center;
         box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
 
-  
-    }
-#boxes a{text-decoration: none; color: white;}
 
+    }
+
+    #boxes a {
+        text-decoration: none;
+        color: white;
+    }
 </style>
 <header>
-    <div class="container1">
+    <nav class="container1">
 
         <ul>
 
@@ -159,7 +178,7 @@
             <li><a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
             <li><a href="https://github.com"><i class="fa-brands fa-github"></i></a></li>
             <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-    </div>
+    </nav>
     </ul>
     </div>
 </header>
@@ -176,7 +195,7 @@
             "Hi I Am Rudra Pratap Dubey - A Web Development Enthusiast <br>
             "I'm passionate about learning New technology regarding my field of intrest<br>
             I'm currently persuing my Bechelors of technology<br>
-          <a href="about.html"> <button> let's get started ></button></a>
+            <a href="about.html"> <button> let's get started ></button></a>
 
     </div>
     <div class="img"></div>
@@ -187,24 +206,18 @@
 
     <div class="container">
         <div class="box1" id="boxes"><a href="C:\Users\rudra\OneDrive\Desktop\shaperider.html">
-            Shaperider</a>
+                Shaperider</a>
         </div>
-    
-        <div class="box2" id="boxes"><a href="C:\Users\rudra\OneDrive\Desktop\sign up.html"> 
-            Login page</a>
+
+        <div class="box2" id="boxes"><a href="C:\Users\rudra\OneDrive\Desktop\sign up.html">
+                Login page</a>
         </div>
         <div class="box3" id="boxes"><a href="homepage.html">
-         Portfolio</a>
+                Portfolio</a>
         </div>
-       
+
     </div>
-
-
 </footer>
-
-
-
-
 </body>
 
 </html>
